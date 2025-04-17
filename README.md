@@ -14,7 +14,7 @@ A full-stack web app that allows customers to make reservations online and provi
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Node.js, Express.js
-- **Database:** SQLite or Microsoft Access
+- **Database:** Microsoft Access
 - **Tools:** GitHub, VS Code
 
 ## 📸 Screenshot
