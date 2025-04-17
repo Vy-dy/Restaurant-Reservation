@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reservation</title>
+        <meta name="title" content="The Modern">
+        <meta name="description" content="This is a Restaurant html template made by Roth">
+        <link rel="shortcut icon" href="./assets/images/favicon.svg" type="images/svg+xml">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+
+    </head>
+    <body id="top">
+        <div class="preload" data-preaload>
+            <div class="circle"></div>
+            <p class="text">The Modern</p>
+        </div>
+
+
+        <div class="topbar">
+            <div class="container">
+                <address class="topbar-item">
+                    <div class="icon">
+                        <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                 <span class="span">
+                    9999 Rd, Katy, Texas, 77084
+                 </span>   
+                </address>
+
+                <div class="separator"></div>
+
+                <div class="topbar-item item-2">
+                    <div class="icon">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">Mon-Fri: 8:00 am to 10:00 pm</span>
+                </div>
+
+                <a href="./index.html" target="_blank" class="topbar-item">
+                    <div class="icon">
+                        <ion-icon name="home-outline"></ion-icon></ion-icon>
+                    </div>
+                    <span class="span">HOME</span>
+                </a>
+                <div class="separator"></div>
+                <a href="tel:3460000000" class="topbar-item">
+                    <div class="icon">
+                        <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <span class="span">346-000-0000</span>
+                </a>
+
+                <div class="separator"></div>
+
+                <a href="mailto:roth@gmail.com" class="topbar-item">
+                    <div class="icon">
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <span class="span">roth@gmail.com</span>
+                </a>
+
+            </div>
+        </div>
+
+        <main>
+
+            <article>
+
+                <section class="reservation">
+                    <div class="container">
+
+                        <div class="form reservation-form bg-black-10">
+
+                            <form action="" class="form-left">
+                                
+                                <h2 class="headline-1 text-center">Online Reservation</h2>
+
+                                <p class="form-text text-center">
+                                   Booking request <a href="tel: 3460000000" class="link">346-000-0000</a>
+                                   or fill out the order form
+                                </p>
+
+                                <div class="input-wrapper">
+                                  <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+                                
+                                  <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                               </div>
+
+                                <div class="input-wrapper">
+
+                                    <div class="icon-wrapper">
+                                        <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                                        <select name="person" class="input-field">
+                                            <option value="1-person">1 Person</option>
+                                            <option value="2-person">2 Person</option>
+                                            <option value="3-person">3 Person</option>
+                                            <option value="4-person">4 Person</option>
+                                            <option value="5-person">5 Person</option>
+                                            <option value="6-person">6 Person</option>
+                                            <option value="7-person">7 Person</option>
+                                        </select>
+
+                                        <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                                    </div>
+
+                                    <div class="icon-wrapper">
+                                       <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                                       <input type="date" name="reservation-date" class="input-field">
+
+                                       <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                                    </div>
+
+                                    <div class="icon-wrapper">
+                                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                        <select name="time" class="input-field">
+                                            <option value="08:00am">08 : 00 am</option>
+                                            <option value="09:00am">09 : 00 am</option>
+                                            <option value="010:00am">10 : 00 am</option>
+                                            <option value="011:00am">11 : 00 am</option>
+                                            <option value="012:00pm">12 : 00 pm</option>
+                                            <option value="01:00pm">01 : 00 pm</option>
+                                            <option value="02:00pm">02 : 00 pm</option>
+                                            <option value="03:00pm">03 : 00 pm</option>
+                                            <option value="04:00pm">04 : 00 pm</option>
+                                            <option value="05:00pm">05 : 00 pm</option>
+                                            <option value="06:00pm">06 : 00 pm</option>
+                                            <option value="07:00pm">07 : 00 pm</option>
+                                            <option value="08:00pm">08 : 00 pm</option>
+                                            <option value="09:00pm">09 : 00 pm</option>
+                                            <option value="10:00pm">10 : 00 pm</option>
+                                        </select>
+
+                                        <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                                        
+                                    </div>
+
+                                </div>
+
+                                <textarea name="message" placeholder="Message" autocomplete="off"
+                                class="input-field"></textarea>
+                                <button type="submit" class="btn btn-secondary" id="submitBtn">
+                                    <span class="text text-1">Book a Table</span>
+
+                                    <span class="text text-2" aria-hidden="true">Book A Table</span>
+                                </button>
+                                <ul id="reservation-list"></ul>
+                                <div>
+                                    Available Tables: <span id="table-count">30</span>
+                                </div>
+                            </form>
+
+                            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')";>
+                                
+                                <h2 class="headline-1 text-center">Contact Us</h2>
+
+                                <p class="contact-label">Booking Request</p>
+
+                                <a href="tel:3460000000" class="body-1 contact-number hover-underline">346-000-0000</a>
+
+                                <div class="separator"></div>
+
+                                <p class="contact-label">Location</p>
+
+                                <address class="body-4">
+                                    1409 Rd, Katy, Texas, 77084 
+
+                                </address>
+
+                                <p class="contact-label">Breakfast and Lunch Time</p>
+
+                                <p class="body-4">
+                                    Monday to Sunday <br>
+                                    08:00 am - 02:00pm
+                                </p>
+
+                                <p class="contact-label">Dinner Time</p>
+
+                                <p class="body-4">
+                                    Monday to Sunday <br>
+                                    03:00pm - 10:00pm
+                                </p>
+                            </div>
+
+                            
+
+                        </div>
+
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer class="footer section has-bg-image text-center" style="background-image: url('./assets/images/footer-fish-flipped.jpg')";>
+            <div class="container">
+     
+               <div class="footer-bottom">
+   
+                   <p class>
+                       &copy; 2024 The Modern. All Rights Reserved | Made by Rothsopheavy Dy
+                   </p>
+               </div>
+            </div>
+           </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>      
+        <script src="assets/js/script.js"></script>
+    </body>
+
+</html>
