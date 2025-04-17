@@ -22,7 +22,18 @@ A full-stack web app that allows customers to make reservations online and provi
 ![Homepage Screenshot](assets/images/homepage-screenshot.png)
 
 ## 📂 Folder Structure
-Restaurant-Reservation/ ├── assets/ │ ├── css/ │ ├── js/ │ └── images/ ├── index.html ├── reservation.html ├── server.js ├── README.md
+
+```
+Restaurant-Reservation/
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── index.html
+├── reservation.html
+├── server.js
+├── README.md
+```
 
 ## ⚠️ Note
 > 🗂️ Microsoft Access (.accdb) database used locally for testing.  
